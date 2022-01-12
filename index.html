@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-links">
+                <div class="search">
+                    <input type="text" placeholder="Search" required>
+                </div>
+                <li>
+                    <button class="btn" onclick="turnOff(this)">Login</button>
+                </li>
+            </ul>
+        </div>
+        <div class="dictionary">
+            <div class="box">
+                <div class="practitioner">
+                    <div class="noun">
+                    <h1 class="name">ninja</h1>
+                        <div><em>noun</em></div>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="likes" onclick="likes(this)">13 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p>A practitioner skilled in the <a href="#" class="pais">Japanese</a> art of <a href="#" class="arte">ninjutsu</a></p> 
+                    </div>
+                </div>
+                <div class="boxyou">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="add" onclick="ocultar(this)">Add Definition</button>
+                </div>
+            </div>
+            <div class="programer">
+                <div class="noun">
+                <h1 class="name">ninja</h1>
+                    <div><em>noun</em></div>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class="likes" onclick="likes(this)">37 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A <a href="#" class="edit">programmer</a> who breaks down problems with <a href="#" class="edit">zen</a> like focus</p>
+                </div>
+            </div>
+        </div>
+    <script src="turnOff.js"></script>
+    </body>
+</html>
